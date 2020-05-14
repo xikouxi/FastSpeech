@@ -2,7 +2,7 @@ from text import symbols
 
 # Text
 text_cleaners = ['english_cleaners']
-
+text_cleaners = ['chinese_cleaners']
 # Mel
 n_mel_channels = 80
 num_mels = 80

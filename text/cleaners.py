@@ -87,3 +87,7 @@ def english_cleaners(text):
     text = expand_abbreviations(text)
     text = collapse_whitespace(text)
     return text
+
+def chinese_cleaners(text):
+    text = pinyin.get(text,format='numerical',delimiter=" ")
+    return text
