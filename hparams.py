@@ -1,7 +1,7 @@
 from text import symbols
 
 # Text
-text_cleaners = ['english_cleaners']
+# text_cleaners = ['english_cleaners']
 text_cleaners = ['chinese_cleaners']
 # Mel
 n_mel_channels = 80
@@ -33,12 +33,12 @@ duration_predictor_kernel_size = 3
 dropout = 0.1
 
 # Train
-alignment_path = "./alignments"
+alignment_path = "/content/drive/My Drive/alignments"
 checkpoint_path = "./model_new"
 logger_path = "./logger"
-mel_ground_truth = "./mels"
+mel_ground_truth = "/content/drive/My Drive/mels/mels"
 
-batch_size = 64
+batch_size = 8
 epochs = 1000
 n_warm_up_step = 4000
 
